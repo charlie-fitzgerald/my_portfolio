@@ -13,6 +13,7 @@ const Skills = () => {
     "Python",
     "SQL",
     "Machine Learning",
+    "Tkinter",
   ];
 
   return (
