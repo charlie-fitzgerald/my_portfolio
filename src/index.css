@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(-45deg, #0a0a0a, #3b0764, #6b21a8, #0a0a0a);
+  background-size: 300% 300%;
+  animation: gradientShift 10s ease infinite;
+}
+
+.hero-highlight {
+  color: #4FC3F7; 
+}
+
+.header-gradient {
+  background: linear-gradient(to right, #0a0a0a, #3b0764);
+}
+
+.header-solid {
+  background-color: #3b0764;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.menu-btn {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.menu-btn:hover {
+  transform: rotate(90deg) scale(1.2); /* Cool rotation + slight zoom */
+  color: #4FC3F7; /* Matches the highlight color */
+}
+
+.mobile-menu {
+  background: rgba(30, 30, 30, 0.6); /* Increase transparency (lower the 0.85 value) */
+  backdrop-filter: blur(15px); /* Increase blur for a stronger frosted look */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Slight border for contrast */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* Slight shadow for depth */
+  border-radius: 12px;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
