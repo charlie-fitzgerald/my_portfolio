@@ -7,12 +7,12 @@ const projects = [
       "Developed a crop recommendation application with machine learning, using Python, Sklearn, and the Tkinter GUI library",
     projectUrl: "https://github.com/charlie-fitzgerald/Crop_Recommender",
   },
-  // {
-  //   title: "Weather Application",
-  //   description:
-  //     "A weather application developed using React and the open Weather API",
-  //   projectUrl: "https://via.placeholder.com/300", 
-  // },
+  {
+    title: "Weather Application",
+    description:
+      "A weather application developed using React and the open Weather API",
+    projectUrl: "https://github.com/charlie-fitzgerald/WeatherApp", 
+  },
   {
     title: "Pomodoro Timer Application",
     description:
