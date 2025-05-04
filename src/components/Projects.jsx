@@ -8,16 +8,16 @@ const projects = [
     projectUrl: "https://github.com/charlie-fitzgerald/Crop_Recommender",
   },
   {
-    title: "Weather Application",
-    description:
-      "A weather application developed using React and the open Weather API",
-    projectUrl: "https://github.com/charlie-fitzgerald/WeatherApp", 
-  },
-  {
     title: "Pomodoro Timer Application",
     description:
       "Created a Pomodoro timer application using React and Vite, styled with TailwindCSS, that allows users to manage their time effectively.",
     projectUrl: "https://pomodoro-git-standalone-charlie-fitzgeralds-projects.vercel.app/", 
+  },
+  {
+    title: "Weather Application",
+    description:
+      "A weather application developed using React and the open Weather API",
+    projectUrl: "https://github.com/charlie-fitzgerald/WeatherApp", 
   },
 ];
 
